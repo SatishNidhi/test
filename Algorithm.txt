@@ -1,0 +1,24 @@
+Step-1:First of all,using Pythagorean Theorem to generate the side lengths of the right angle triangle.
+       c2 = a2+b2
+       where,
+       c - Length of Hypotenuse
+       a,b length of two other sides
+Step-2:From the above equation,the maximum value that  can take is 1000 and also the same in the case of b, but we an reduce it 	further.
+
+Step-3:After  written a program with the limits extending upto 1000, it took less than 1second for the program execution. 
+
+Step-4:the value of c can be written as va2+b2. So the perimeter of can be written as
+ 	 p = a + b + c
+	?p = a + b + va2+b2
+	Now consider b = 0 then
+	?p = a + 0 + a
+	?p = 2a
+	So 2a = 1000
+	a = 500
+	and similarly the proof follows for b also.
+
+step-5:For Pythagorean Triples,check if the value of c is integer and then add it to the perimeter list for further counting if it is 		an integer.
+
+Step-5:At last,After all the iterations are over, i.e after generated all the values of c for a<500 then count the number of instances        of the given element in the list and finally print the most repeated perimeter.
+
+
